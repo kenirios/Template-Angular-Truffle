@@ -1,7 +1,7 @@
-# DTasksApp
-Decentralize App is a simple Tasks' App to practice the creation of a blockchain applicaciont using Solidity and Javascript.
+# DMS-DApp
+Dapp desentralizada, compilar truffle y luego desplegar.
 
-![](./screenshot.png)
+![](./captura.png)
 
 The stack and tools of this application is:
 * Truffle Framework
