@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@truffle/contract": "^4.3.21",
+    "@truffle/contract": "^4.4.5",
     "bootstrap": "^5.0.2",
     "chai": "^4.3.4",
     "lite-server": "^2.6.1"
