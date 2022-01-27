@@ -5,6 +5,7 @@ App = {
     await App.loadAccount();
     await App.loadContract();
     await App.render();    
+    await App.getLips();
   },
 
   loadWeb3: async () => {
@@ -54,11 +55,22 @@ App = {
         from: App.account,    
         value: valueInWei    
       });
-      console.log(result.logs[0].args);
+      console.log(result.logs[0]);
       window.location.reload();
     } catch (error) {
       console.error(error);
     }
+  },
+
+
+
+  getLips: async () => { 
+
+    const LipsCounter = await App.lipsContract.getLips();
+      
+        
+    document.querySelector("#LipssList").innerHTML = html;
+
   },
 
 };
