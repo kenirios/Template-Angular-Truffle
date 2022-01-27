@@ -1,10 +1,11 @@
 # DMS-DApp
 Dapp desentralizada, compilar truffle y luego desplegar.
 
-![](./captura.png)
+![](./screenshot.png)
 
-The stack and tools of this application is:
-* Truffle Framework
+Esta es una plantilla basica para iniciar web3 en JS:
+Componentes usados para correr el proyecto.
+* Truffle
 * Ganache
 * Solidity
 * Nodejs
